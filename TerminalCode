@@ -1,0 +1,7 @@
+# Terminal Commands needed
+
+# This unzips the Xcode zip file. I think -x skips the verification or something
+ xip -x /path/to/XcodeXipFile/Xcode_*version*.xip
+ 
+ # This enables downloading and using apps from any source in Security and Privacy Settings.
+ sudo spctl --master-disable
