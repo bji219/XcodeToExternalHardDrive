@@ -6,7 +6,9 @@ Steps:
 1. Create a new user for your mac.
 - Go to "System Preferences > Users & Groups" and click the "+" button to create a new user. 
 
-# ![alt text](https://github.com/[bji219]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+
+
 
 
 3. Set the new user's home directory to be your external hard drive.
@@ -17,9 +19,9 @@ Steps:
 sudo spctl --master-disable
 ```
 
-5. The result should be somethign like this:
+- The result should be somethign like this:
 
-
+# ![alt text](https://github.com/bji219/XcodeToExternalHardDrive/blob/main/Screen%20Shot%202021-04-14%20at%208.13.51%20PM.png)
 
 5. Log out of the normal user account. 
 6. Log in as the new user and download the desired version of Xcode from https://developer.apple.com/download/more/?=xcode
