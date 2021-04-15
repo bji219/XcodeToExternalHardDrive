@@ -4,11 +4,14 @@ My workaround for downloading and installing Xcode on an External Hard Drive to 
 Steps:
 
 1. Create a new user for your mac.
+- Go to "System Preferences > Users & Groups" and click the "+" button to create a new user. 
 
 # ![alt text](https://github.com/[bji219]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
+
 3. Set the new user's home directory to be your external hard drive.
-4. Enable downloads and apps from anywhere using the command:
+- Right click on the new user and choose "Advanced Options"
+5. Enable downloads and apps from anywhere using the command:
 
 ```
 sudo spctl --master-disable
